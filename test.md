@@ -1,6 +1,5 @@
 # Azure dev environment details
-This document describes the tooling and dev environment decisions for the project and
-This document describes Azure dev environment details for the project and getting an access to the environment.
+This document describes the tooling and dev environment decisions for the project and This document describes Azure dev environment details for the project and getting an access to the environment.
 
 Tenant ID: a11959d0-ca0a-422e-80d3-b05cf9cafb22
 Primary domain: MngEnvMCAP786396.onmicrosoft.com
@@ -13,8 +12,7 @@ The temporaray
 
 ## Linting
 
-The following lists the linting coverage we intend to use for the repository.
-The linters that run in the CI flow should be able to be run locally so a developer can
+The following lists the linting coverage we intend to use for the repository. The linters that run in the CI flow should be able to be run locally so a developer can
 resolve linter errors before submitting a PR.
 
 - markdown linting
