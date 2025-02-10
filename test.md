@@ -18,3 +18,14 @@ resolve linter errors before submitting a PR.
 - markdown linting
   - local dev: [VS Code extension](https://marketplace.visualstudio.com/items?itemName=DavidAnson.vscode-markdownlint)
   - CI: [GitHub action]
+
+* **Option C):** Using SDK
+
+  Language        |  SDK Name   | Document Link
+  ---------------- | -------------- | -----------------------------------------------
+  .NET          | azure-mgmt-resourcegraph       | [Document Link][DotNet]
+  Python          | azure-mgmt-resourcegraph     | [Document Link][Python]
+  Java            | azure-mgmt-resourcegraph     | [Document Link]()
+
+  [DotNet]: https://learn.microsoft.com/en-us/dotnet/api/overview/azure/ResourceManager.ResourceGraph-readme?view=azure-dotnet
+  [Python]: https://learn.microsoft.com/en-us/python/api/overview/azure/resource-graph?view=azure-python
