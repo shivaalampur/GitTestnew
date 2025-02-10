@@ -93,3 +93,11 @@ Data dictionary         | Yet to publish
   [Python]: https://learn.microsoft.com/en-us/python/api/overview/azure/resource-graph?view=azure-python
 
   [Java]: https://learn.microsoft.com/en-us/python/api/overview/azure/resource-graph?view=azure-python
+
+    {
+    "options": {  "skipToken": "<$skipToken value>" },
+    "subscriptions": [
+        "{subscriptionID}"
+    ],
+    "query": "Resources | limit 5"
+    }
