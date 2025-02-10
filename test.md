@@ -78,6 +78,7 @@ Data dictionary         | Yet to publish
         ],
         "query": "Resources | limit 5"
         }
+    ```
 
 
 * **Option C):** Using SDK
@@ -94,10 +95,16 @@ Data dictionary         | Yet to publish
 
   [Java]: https://learn.microsoft.com/en-us/python/api/overview/azure/resource-graph?view=azure-python
 
-    {
-    "options": {  "skipToken": "<$skipToken value>" },
-    "subscriptions": [
-        "{subscriptionID}"
-    ],
-    "query": "Resources | limit 5"
-    }
+
+```shell
+$ bazel run :target -- --flag --foo=longlonglonglonglongvalue \
+  --bar=anotherlonglonglonglonglonglonglonglonglonglongvalue
+```
+
+
+Testing option 2:
+
+```
+c++
+    int foo;
+```
