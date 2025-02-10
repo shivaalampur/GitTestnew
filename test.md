@@ -77,7 +77,7 @@ Data dictionary         | Yet to publish
             "{subscriptionID}"
         ],
         "query": "Resources | limit 5"
-        }```
+        }
 
 
 * **Option C):** Using SDK
